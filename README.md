@@ -24,9 +24,13 @@ A list of Google Dorks for Bug Bounty, Web Application Security, and Pentesting
 
 > inurl:q= | inurl:s= | inurl:search= | inurl:query= | inurl:keyword= | inurl:lang= inurl:& site:example.com
 
-### Open Redirect prone parameters
+### Open Redirect prone parameters & XSS Part1
 
-> inurl:url= | inurl:return= | inurl:next= | inurl:redirect= | inurl:redir= | inurl:ret= | inurl:r2= | inurl:page= inurl:& inurl:http site:example.com | inurl:return_to= | | inurl:return_uri= | inurl:redirect_uri= | inurl:prev= | inurl:prev_page= | inurl:next_page= | inurl:site= | inurl:next= | inurl:view= | inurl:back= | inurl:to= | inurl:source= | inurl:from= | inurl:continue= | inurl:continue_to= |inurl:location= | inurl:route= | inurl:follow= | inurl:success_url= | inurl:failure_url= | inurl:callback= |inurl:cb= | inurl:ret= | inurl:return_path | inurl:forward= | inurl:after= | inurl:done= | inurl:destination= | inurl:goto= | inurl:rurl= | inurl:target= | inurl:ref= | inurl:refer= | inurl:referrer= | inurl:endpoint= | inurl:home= | inurl:start= | inurl:finish=| inurl:result=| inurl:move= |inurl:step= | inurl:proceed= 
+> inurl:url= | inurl:return= | inurl:next= | inurl:redirect= | inurl:redir= | inurl:ret= | inurl:r2= | inurl:page= inurl:& inurl:http site:example.com | inurl:return_to= | | inurl:return_uri= | inurl:redirect_uri= | inurl:prev= | inurl:prev_page= | inurl:next_page= | inurl:site= | inurl:next= | inurl:view= | inurl:back= | inurl:to= | inurl:source= | inurl:from= | inurl:continue= | inurl:continue_to= |inurl:location= | inurl:route= | inurl:follow= | inurl:success_url= | inurl:failure_url= | inurl:callback= |inurl:cb= | inurl:ret= | inurl:return_path
+
+### Open Redirect pron parameters & XSS Part2
+
+> inurl:forward= | inurl:after= | inurl:done= | inurl:destination= | inurl:goto= | inurl:rurl= | inurl:target= | inurl:ref= | inurl:refer= | inurl:referrer= | inurl:endpoint= | inurl:home= | inurl:start= | inurl:finish=| inurl:result=| inurl:move= |inurl:step= | inurl:proceed=
 ### SQLi Prone Parameters
 
 > inurl:id= | inurl:pid= | inurl:category= | inurl:cat= | inurl:action= | inurl:sid= | inurl:dir= inurl:& site:example.com
